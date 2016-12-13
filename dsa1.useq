@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.1.9" icons="true">  
+  <object id="1" language="java" name="Client.ManagerClient" project="Comp6231-A1" 
+    file="/Comp6231-A1/src/Client/ManagerClient.java" binary="false" label="managerClient" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="285" y="0"/>    
+    <execution id="2">      
+      <position height="138" width="122" x="5" y="119"/>    
+    </execution>    
+    <execution id="5">      
+      <position height="21" width="7" x="63" y="194"/>    
+    </execution>  
+  </object>  
+  <object id="6" language="java" name="Server.MTLServer" project="Comp6231-A1" 
+    file="/Comp6231-A1/src/Server/MTLServer.java" binary="false" label="mtlServer" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="266" y="0"/>  
+  </object>  
+  <object id="7" language="java" name="Server.LavalServer" project="Comp6231-A1" 
+    file="/Comp6231-A1/src/Server/LavalServer.java" binary="false" label="lavalServer" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="266" y="0"/>    
+    <execution id="8">      
+      <position height="21" width="103" x="734" y="152"/>    
+    </execution>    
+    <execution id="4">      
+      <position height="96" width="103" x="231" y="140"/>    
+    </execution>  
+  </object>  
+  <object id="10" language="java" name="Server.DDOServer" project="Comp6231-A1" 
+    file="/Comp6231-A1/src/Server/DDOServer.java" binary="false" label="ddoServer" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="266" y="0"/>    
+    <execution id="11">      
+      <position height="21" width="97" x="338" y="194"/>    
+    </execution>  
+  </object>  
+  <object id="12" language="java" name="Server.AnsCounts" project="Comp6231-A1" 
+    file="/Comp6231-A1/src/Server/AnsCounts.java" binary="false" label="ansCounts" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="728" y="0"/>  
+  </object>  
+  <object id="13" language="java" name="Server.ReqCounts" project="Comp6231-A1" 
+    file="/Comp6231-A1/src/Server/ReqCounts.java" binary="false" label="reqCounts" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="744" y="0"/>  
+  </object>  
+  <message id="3" operation="ManagerCheck(java.lang.String,java.lang.String):boolean" asynchronous="false">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="9" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="5"/>  
+  </message>
+</sequence-diagram>
